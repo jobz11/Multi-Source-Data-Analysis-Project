@@ -28,13 +28,6 @@ Course project for CS 2064 at Virginia Tech. One notebook, three research questi
 - Ten yearly data points and no statistical test.
 - The two lines use different y-axis scales, so they should not be read as related.
 
-## Known issues and next steps
-
-- Question 1: ratings of 0 mean "unrated" and should be excluded. Add a chart and a written conclusion.
-- Question 2: replace the blocked Indeed scrape with a source that permits access, or keep the sample data and the label above.
-- Question 3: rerun with a minimum attempts filter (for example 100) or weight averages by attempts.
-- The NFL cell reads its CSV files from `~/Downloads`, and the files are not in this repo, so the notebook does not run end to end for anyone else yet. Fixing this is the next step.
-
 ## Run it
 
 ```
@@ -43,4 +36,4 @@ pip install requests pandas numpy matplotlib seaborn beautifulsoup4 jupyter
 jupyter notebook
 ```
 
-The notebook reads the RAWG key from the `RAWG_API_KEY` environment variable and prompts for it if the variable is not set. A free key is available from rawg.io. Question 3 will not run until the CSV issue above is fixed.
+The notebook reads the RAWG key from the `RAWG_API_KEY` environment variable and prompts for it if the variable is not set. A free key is available from rawg.io. The NFL cell reads its CSV files from `~/Downloads` and they are not included here, so Question 3 will not run on another machine as is.
