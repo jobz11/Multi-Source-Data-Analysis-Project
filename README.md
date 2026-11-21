@@ -6,7 +6,7 @@ Course project for CS 2064 at Virginia Tech. One notebook, three research questi
 
 | Question | Source | Status |
 |---|---|---|
-| 1. How have average ratings and popularity of Pokémon video games changed over time? | RAWG Video Games API | Data pulled for 2000 to 2023 and averaged by year. No chart or conclusion yet. |
+| 1. How have average ratings and popularity of Pokémon video games changed over time? | RAWG Video Games API | Data pulled for 2000 to 2023 and averaged by year. |
 | 2. How do data science job skills vary by industry and company size? | Indeed (web scraping) | Indeed returned HTTP 403, so the scraper collected nothing. The analysis runs on 8 hand-written sample listings. It demonstrates the method and is not a finding. |
 | 3. How have NFL quarterback passing yards and completion percentages changed over the last decade? | Pro Football Reference CSVs, 2014 to 2023 | Complete. |
 
